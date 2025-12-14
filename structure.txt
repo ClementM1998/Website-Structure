@@ -1,0 +1,97 @@
+
+Struktur untuk sebuah laman web
+
+1) Keperluan Asas (WAJIB ADA)
+1. Domain
+Contoh:
+* example.com
+* kedaisaya.my
+-> Fungsi: alamat untuk orang lawat website
+
+2. Hosting / Server
+Tempat simpan:
+* fail website
+* gambar
+* data
+Jenis:
+* Shared Hosting (murah)
+* VPS / Cloud (lebih power)
+* PC sendiri (server sendiri - lebih teknikal)
+
+3. Fail website
+Biasanyg mengandungi:
+* HTML - struktur
+* CSS - design
+* JavaScript - fungsi/interaksi
+Atau guna:
+* PHP
+* Java (Spring)
+* Node.js
+* Framework (React, Laravel, dll)
+
+2) Kandungan Website (PENTING UNTUK PELAWAT)
+Halaman utama yang biasa ada:
+* Home - pengenalan
+* About - siapa anda
+* Services / Produk
+* Contact - borang, email, WhatsApp
+* Privacy Policy & Terms (wajib jika ada data pengguna)
+
+3) Sistem & Fungsi Tambahan
+1. Keselamatan
+* SSL (https)
+* Login / Register (jika perlu)
+* Protection (anti spam, captcha)
+
+2. Database (jika ada data)
+Contoh:
+* MySQL
+* PostgreSQL
+* MongoDB
+Digunakan untuk:
+* akaun pengguna
+* produk
+* transaksi
+* komen
+
+4. Reka Bentuk & Pengalaman Pengguna
+1. UI/UX
+* Mesra telefon (responsive)
+* Mudah difahami
+* Loading cepat
+
+5. SEO & Prestasi
+Supaya mudah dijumpai di Google:
+* Tajuk halaman betul
+* Meta description
+* Struktur URL kemas
+* Laju (fast loading)
+
+6. Integrasi Tambahan (Jika Perlu)
+* Payment (TnG, FPX, Stripe, PayPal)
+* Email (newsletter, notifikasi)
+* Analytics (Google Analytics)
+* Chatbot / WhatsApp
+
+7. Undang-undang (Jika Website Serius/Bisnes)
+Di Malaysia:
+* Polisi privasi
+* Persetujuan pengguna
+* Patuh PDPA jika simpan data peribadi
+
+8. Ringkasan Paling Ringkas]
+
+Website MINIMUM perlu ada:
+a). Domain
+b). Hosting
+c). Fail website
+d). Kandungan
+e). Keselamatan asas
+
+Website PROFESIONAL:
+a). Database
+b). Login sistem
+c). Payment
+d). SEO
+e). Analytics
+f). Legal pages
