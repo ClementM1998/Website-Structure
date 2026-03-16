@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background-color: #303030;
+  color: white;
+}
+
+.menu-btn {
+  position: fixed;
+  right: 20px;
+  top: 20px;
+  font-size: 25px;
+  background: #111;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.right-menu {
+  position: fixed;
+  right: -220px;
+  top: 0;
+  width: 200px;
+  height: 100%;
+  background: #111;
+  transition: 0.3s;
+  padding-top: 60px;
+}
+
+.right-menu.active {
+  right: 0;
+}
+
+.right-menu a {
+  display: block;
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.right-menu a:hover {
+  background: #333;
+  text-align: center;
+}
+
+.content {
+  padding: 10px 15px;
+}
+
+.toplist-wrapper {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.scroll-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: #111;
+  color: white;
+  border: none;
+  font-size: 25px;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 10;
+  transition: 0.3s;
+}
+
+.scroll-btn:hover {
+  background: #333;
+}
+
+.scroll-btn.left {
+  left: 0;
+}
+
+.scroll-btn.right {
+  right: 0;
+}
+
+.grid-menu-horizontal {
+  display: grid;
+  grid-auto-flow: column;
+  scrollbar-width: none;
+  overflow-x: auto;
+  gap: 20px;
+  padding: 10px 0;
+  scroll-behavior: smooth;
+}
+
+.grid-box {
+  min-width: 250px;
+  background: #111;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+  color: white;
+  flex-shrink: 0;
+}
+
+.grid-box:hover {
+  background: #333;
+  transform: scale(1.05);
+}
+
+.rank {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffcc00;
+  display: block;
+  margin-bottom: 10px;
+}
